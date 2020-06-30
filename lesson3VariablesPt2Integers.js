@@ -67,7 +67,14 @@ positive++;
 console.log('positive++ = ' + positive);
 ++positive;
 console.log('++positive = ' + positive);
+// decrementing
+console.log('\ndecrementing');
 positive--;
 console.log('positive-- = ' + positive);
 --positive;
 console.log('--positive = ' + positive);
+
+// +=
+console.log('\npositive += positive is ' + (positive += positive));
+// -=
+console.log('positive -= positive is ' + (positive -= positive));
